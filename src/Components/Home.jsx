@@ -19,9 +19,9 @@ function Home() {
             NAVEEN KUMAR P
           </p>
           <p className="font-palanquin text-xl font-medium pt-2 pb-4">
-            Full Stack Developer
+            LARAVEL Developer
           </p>
-          <a href="Naveen_kumar_resume.pdf" target="_blank">
+          <a href="Naveen_Kumar.pdf" target="_blank">
             <button className="p-2 font-montserrat text-black hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-white/50 border-2 border-zinc-800 text-xs rounded-3xl hover:border-2 hover:border-neutral-800 hover:text-black ">
               Resume
             </button>
@@ -46,7 +46,7 @@ function Home() {
           animate={{ x: "-220%" }}
           transition={{ repeat: Infinity, repeatType: "mirror", duration: 20 }}
         >
-          FULL STACK DEVELOPER
+          FULL STACK LARAVEL DEVELOPER
         </motion.div>
       </div>
     </>

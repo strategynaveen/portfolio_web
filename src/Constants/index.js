@@ -21,7 +21,7 @@ export const journeyData = [
     location: "Madurai, TamilNadu",
     description: "Computer Science",
     icon: React.createElement(FaSchool),
-    date: 2018,
+    date: 2019,
   },
   {
     title: "Bachelor of Engineering",
@@ -38,14 +38,23 @@ export const journeyData = [
     description:
       "I am a Full Stack Developer with extensive experience in both front-end and back-end development. I excel at creating responsive interfaces, managing robust backend systems, and handling IoT-based web applications. Skilled in integrating various technologies for seamless and efficient solutions.",
     icon: React.createElement(FaMagnifyingGlass),
-    date: "2021-2024",
+    date: "DEC 2021- JAN 2025",
+  },
+   {
+    title: "Programmer Analyst",
+    institution: "PERI Software Solutions Pvt Ltd",
+    location: "Chennai, TamilNadu",
+    description:
+      "Currently working as a Programmer Analyst, responsible for developing and delivering complete software products. Specialized in Laravel development, handling both front-end and back-end implementation. Building responsive and user-friendly interfaces optimized for multiple devices. Managing server deployment, hosting, and maintenance to ensure smooth product performance. Focused on providing scalable, secure, and business-oriented software solutions.",
+    icon: React.createElement(FaMagnifyingGlass),
+    date: "FEB 2025- Present",
   }
 ];
 export const projectData = [
   {
     title: "SmartMach",
     description:
-      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
+      "Worked on the SmartMach OEE Monitoring Project, handling both front-end and back-end development. Also managed server deployment and hosting to ensure seamless performance.",
     tag: ["Codeigniter4","Html5","Css3","Bootstrap5","Python","Mysql","Mongodb","DigitalOcean","System-services"],
     imgUrl: "smartmach.png",
     git: "https://github.com/strategynaveen/smarttech"
@@ -53,7 +62,7 @@ export const projectData = [
   {
     title: "Terion",
     description:
-      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
+      "Developed Terion, an invoice generation software with log-wise invoicing, handling both front-end and back-end development. Integrated payment gateway APIs and managed deployment for a seamless user experience.",
     tag: ["Reactjs","Material UI","Bootstrap5","Nodejs","Postgresql","DigitalOcean","System-services","Razorpay"],
     imgUrl: "terion.png",
     git: "https://github.com/strategynaveen/terion_git"
@@ -61,21 +70,21 @@ export const projectData = [
   {
     title: "Quantanics Webpage",
     description:
-      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
+      "Developed the company website with a fully responsive design, ensuring smooth performance across mobile, tablet, and desktop devices. Focused on delivering a clean, user-friendly interface with modern UI practices.",
     tag: ["Laravel","Bootstrap5","DigitalOcean","System-services"],
     imgUrl: "quantanics_web.png",
     git: "https://github.com/strategynaveen/quantanics_laravel"
   },
   {
-    title: "Agri Water Management",
+    title: "ERP Software",
     description:
-      "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
-    tag: ["Android Studio","Embedded c","Mqtt"],
+      "Developed and managed an ERP software solution, ensuring accurate data processing with complete front-end and back-end handling. Deployed and hosted the application on a dedicated server for reliable performance.",
+    tag: ["Laravel 11","Postgres","Live Wire","Apexcharts"],
     imgUrl: "mobile_iot.jpeg",
-    git: "https://github.com/strategynaveen/Android_studio_files"
+    git: "https://github.com/strategynaveen/Peri-Work"
   },
   {
-    title: "Talent64 Compiler and Certificate Generation",
+    title: "Online Compiler and Certificate Generation",
     description:
       "plan and create test cases, test scripts and test the product using both manual and selinium automation testing.",
     tag: ["Reactjs","Nodejs","Expressjs","Material UI","Tailwind css","Fabricjs"],

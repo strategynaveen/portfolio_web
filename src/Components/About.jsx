@@ -15,12 +15,14 @@ function About() {
           <h2 className="text-sm text-blue-500 font-montserrat font-bold">
             About me
           </h2>
-          <h1 className="text-xl font-rubik font-semibold">
-            Full Stack Developer based in Madurai, India 📍
+          <h1 className="text-[1rem] font-rubik font-semibold">
+            Laravel Developer | 3.6 Years of Experience | Based in Madurai, India 📍
           </h1>
           <p className="text-sm font-palanquin text-slate-700">
-            Hey, my name is Naveen Kumar P, and I'm a Full Stack Developer.
-            My passion is to create and develop a clean Web Application for my users.
+            I’m <b>Naveen Kumar P,</b> a passionate <b>PHP Full Stack Developer </b> with 3.6 years of experience in building scalable and high-performing web applications. My expertise spans across Laravel, CodeIgniter, and Core PHP, along with RESTful APIs, Livewire, PostgreSQL/MySQL, Tailwind CSS, Bootstrap, JavaScript, and jQuery.
+          </p>
+          <p className="text-sm font-palanquin text-slate-700">
+            I specialize in developing secure, maintainable applications and managing end-to-end product development, from front-end design to back-end logic and server deployment. With a strong focus on clean coding practices and problem-solving, I aim to deliver impactful solutions that enhance both business processes and user experience.
           </p>
           
         </div>
@@ -30,6 +32,11 @@ function About() {
           Tech Stack
         </div>
         <div className="flex flex-row flex-wrap gap-3 p-3">
+            <img
+              src="icons8-php.svg"
+              alt="html"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+            />
             <img
               src="icons8-html-5.svg"
               alt="html"
@@ -45,43 +52,37 @@ function About() {
               alt="html"
               className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
             />
-            <img
-              src="icons8-php.svg"
-              alt="html"
-              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
-            />
-            <img
-              src="codeigniter-svgrepo-com.svg"
-              alt="html"
-              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
-            />
-          
-            <img
-              src="icons8-nodejs.svg"
-              alt="html"
-              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
-            />
 
-            <img
-              src="icons8-react.svg"
-              alt="html"
-              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
-            />
-            <img
-              src="icons8-mysql.svg"
-              alt="html"
-              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
-            />
-            <img
-              src="icons8-mongodb.svg"
-              alt="html"
-              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
-            />
             <img
               src="laravel-2.svg"
               alt="html"
               className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
             />
+            
+            <img
+              src="codeigniter-svgrepo-com.svg"
+              alt="html"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+            />
+
+            <img
+              src="icons8-nodejs.svg"
+              alt="html"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+            />
+            <img
+              src="icons8-python.svg"
+              alt="html"
+              className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+            />
+
+            {/* <img
+              src="icons8-react.svg"
+              alt="html"
+              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
+            /> */}
+            
+           
           <img
             src="icons8-tailwind-css.svg"
             alt="html"
@@ -92,12 +93,24 @@ function About() {
             alt="html"
             className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
           />
+
           <img
-            src="icons8-python.svg"
-            alt="html"
-            className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
+              src="Postgresql_elephant.svg"
+              alt="html"
+              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
           />
-            <img
+          
+          <img
+              src="icons8-mysql.svg"
+              alt="html"
+              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
+          />
+          <img
+              src="icons8-mongodb.svg"
+              alt="html"
+              className="w-[42px] transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300"
+          />
+          <img
             src="digitalocean-official.svg"
             alt="html"
             className="transition ease-in-out delay-50 hover:-translate-y-1 hover:scale-110  duration-300 "
