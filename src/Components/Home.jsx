@@ -8,10 +8,15 @@ function Home() {
       <div className="flex flex-col md:flex-row  justify-center gap-8 h-full items-center pb-16  absolute z-20 max-container  ">
         <div className="md:w-[25%] w-[50%] pr-6">
           <img
-            src="profile_photo.jpeg"
+            src="profile_nk.jpg"
             alt="deeraj"
             className="rounded-full bg-yellow-400  outline outline-offset-2 outline-[4px] "
           />
+          {/* <img
+            src="profile_nk.jpeg"
+            alt="Strategy"
+            className="rounded-full bg-yellow-400  outline outline-offset-2 outline-[4px] "
+          /> */}
         </div>
         <div className="flex flex-col  items-center ">
           <p className="font-montserrat">Hello, I'm</p>
